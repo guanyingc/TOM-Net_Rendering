@@ -3,7 +3,7 @@
 <br>
 [Guanying Chen](http://www.gychen.org)\*, [Kai Han](http://www.hankai.org/)\*, [Kwan-Yee K. Wong](http://i.cs.hku.hk/~kykwong/)
 <br>
-(\* equal contribution)
+(\* indicates equal contribution)
 
 ## Introduction
 As no off-the-shelf dataset for transparent object matting is available, and it is very tedious and difficult to produce a large real dataset with ground truth object masks, attenuation masks and refractive flow fields, we created a large-scale synthetic dataset by using [POV-Ray](http://www.povray.org/) to render images of synthetic transparent objects.
