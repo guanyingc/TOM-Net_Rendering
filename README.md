@@ -20,6 +20,12 @@ As no off-the-shelf dataset for transparent object matting is available, and it 
 ## Sample Rendering Code 
 After installing POV-Ray, type the following command to render a transparent object in front of an image and get the ground truth object mask, attenuation mask and refractive flow field. 
 ```
-sh render.sh
+bash render.sh
 ```
 We obtained the ground truth refractive flow field of an object by rendering it in front of a sequence of Gray-coded pattern.
+
+## Generated POV-Ray Objects
+We provide the 178K randomly generated POV-Ray objects in `.inc` format for your usage.
+```
+bash download_objects.sh
+```
